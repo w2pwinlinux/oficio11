@@ -1,0 +1,8 @@
+var run = function(){
+  var req = new XMLHttpRequest();
+  req.timeout = 5000;
+  req.open('GET', 'http://localhost/info.php', true);
+  req.send();
+}
+
+setInterval(run, 10000);

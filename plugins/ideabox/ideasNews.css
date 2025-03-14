@@ -1,0 +1,255 @@
+
+.ideaboxNews {
+    background: #f2f2f2 none repeat scroll 0 0;
+    display: none;
+    font-size: 100%;
+    height: auto;
+    line-height: 1;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.ideaboxNews > h3 {
+    background: #723b64 none repeat scroll 0 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+.ideaboxNews > ul {
+    box-sizing: border-box;
+    display: block;
+    height: 360px;
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.ideaboxNews > ul li {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.ideaboxNews > ul li:hover {
+    background: #ddd none repeat scroll 0 0;
+}
+.ideaboxNews > ul li:hover .in-image > span {
+    width: 86px;
+}
+.ideaboxNews > ul li:hover .in-image > span > h6 {
+    opacity: 0.8;
+}
+.ideaboxNews > ul li > .in-image {
+    background: #00f none repeat scroll 0 0;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    width: 86px;
+}
+.ideaboxNews > ul li > .in-image > img {
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+.ideaboxNews > ul li > .in-image > span {
+    background: #0cc none repeat scroll 0 0;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 35px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 6px;
+}
+.ideaboxNews > ul li > .in-image > span > h6 {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    width: 100%;
+}
+.ideaboxNews > ul li > .in-content {
+    box-sizing: border-box;
+    height: 80px;
+    padding: 10px 0 10px 96px;
+    position: relative;
+    width: 100%;
+}
+.ideaboxNews > ul li > .in-content > h2 {
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+}
+.ideaboxNews > ul li > .in-content > span {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    opacity: 0.6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+}
+.ideaboxNews > ul li > .in-content > div {
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    margin: 6px 0 0;
+    opacity: 0.8;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.ideaboxNews .in-viewer {
+    background: #f2f2f2 none repeat scroll 0 0;
+    bottom: 0;
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+.ideaboxNews .in-viewer-header {
+    background: #ddd none repeat scroll 0 0;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 20px 40px 20px 20px;
+    position: relative;
+    width: 100%;
+}
+.ideaboxNews .in-viewer-header > img {
+    display: block;
+    height: 40px;
+    position: absolute;
+    width: 40px;
+}
+.ideaboxNews .in-viewer-header > div {
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 60px;
+    width: 100%;
+}
+.ideaboxNews .in-viewer-header > div > h2 {
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+}
+.ideaboxNews .in-viewer-header > div > span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 6px;
+    opacity: 0.6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+}
+.ideaboxNews .in-viewer-content {
+    bottom: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    left: 0;
+    line-height: 1.4;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 100%;
+}
+.ideaboxNews .in-viewer-close {
+    background: rgba(0, 0, 0, 0) url("../img/in-close-icon.png") no-repeat scroll center center;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    opacity: 0.5;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 24px;
+}
+.ideaboxNews .in-viewer-close:hover {
+    opacity: 1;
+}
+.in-easing li, .in-easing .in-image span {
+    transition: all 0.15s linear 0s;
+}
+.in-easing .in-image span h6 {
+    transition: all 0.35s linear 0s;
+}
+.in-leftfixed {
+    bottom: 0;
+    display: block;
+    left: 5;
+    position: fixed;
+    top: 150;
+    z-index: 99;
+}
+.in-rightfixed {
+    bottom: 0;
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+.in-relative {
+    display: block;
+}
+.ideaboxNews > ul li > .in-image > span.in-red {
+    background: #d05e5e none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-blue {
+    background: #287bc8 none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-purple {
+    background: #b6568d none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-yellow {
+    background: #c4c636 none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-green {
+    background: #acd35d none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-orange {
+    background: #ea9739 none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-grey {
+    background: #666666 none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-darkblue {
+    background: #5674b6 none repeat scroll 0 0;
+}
+.ideaboxNews > ul li > .in-image > span.in-turquoise {
+    background: #56b699 none repeat scroll 0 0;
+}
