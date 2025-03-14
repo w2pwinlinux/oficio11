@@ -1,0 +1,60 @@
+/** stylo para la forma responsive */
+
+#motivo {
+    width: 100%;
+    /* Ancho 100% para que ocupe todo el espacio disponible */
+    height: 20vh;
+    /* Altura responsiva, 60% de la altura de la ventana */
+    padding: 10px;
+    /* Espaciado interno para que el texto no esté pegado al borde */
+    border: 1px solid #ccc;
+    /* Borde del textarea */
+    border-radius: 4px;
+    /* Esquinas redondeadas */
+    resize: vertical;
+    /* Permitir cambiar el tamaño verticalmente */
+    box-sizing: border-box;
+    /* Incluir el padding en el cálculo del ancho */
+}
+</style><style type="text/css">
+/* Contenedor principal del formulario para distribuir en filas */
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que las columnas se acomoden en múltiples filas si es necesario */
+    gap: 20px;
+    /* Espacio entre las columnas */
+}
+/* Cada columna dentro de la fila */
+
+.form-column {
+    flex: 1;
+    /* Cada columna ocupa el mismo espacio */
+    min-width: 300px;
+    /* Ancho mínimo para las columnas */
+}
+/* Opcional: Estilo para los grupos de formulario */
+
+.form-group {
+    margin-bottom: 15px;
+    /* Espacio entre los campos */
+}
+textarea {
+    width: 100%;
+    /* Hace que el textarea ocupe todo el ancho disponible */
+    height: 100px;
+    /* Ajusta la altura del textarea */
+}
+/* Para que el formulario no se desborde en pantallas pequeñas */
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        /* En pantallas pequeñas, cambia a una columna */
+    }
+    .form-column {
+        width: 100%;
+        /* Asegura que las columnas ocupen todo el ancho disponible */
+    }
+}

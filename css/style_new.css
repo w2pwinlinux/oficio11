@@ -1,0 +1,80 @@
+/* Responsive layout */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+#total {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#header, #footer, #principal_ {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+#menu, .panel-content {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    font-size: 14px;
+}
+table input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+/* Responsive Image */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Adapt layout on smaller screens */
+
+@media (max-width: 768px) {
+    #principal {
+        padding: 5px;
+    }
+    table {
+        font-size: 12px;
+    }
+}
+#div_pedi1 {
+    width: 90%;
+    /* Ajuste para pantallas pequeñas */
+    max-width: 1150px;
+    /* Limita el ancho máximo en pantallas grandes */
+    height: auto;
+    /* Permite que la altura se ajuste según el contenido */
+    padding: 10px;
+    box-sizing: border-box;
+    /* Incluye el padding en el cálculo del ancho */
+}
+/* Media queries para mejorar la adaptabilidad en pantallas más pequeñas */
+
+@media (max-width: 768px) {
+    #div_pedi1 {
+        width: 95%;
+        /* Aumenta el ancho en pantallas más pequeñas */
+        padding: 15px;
+        /* Ajusta el padding */
+    }
+}
+@media (max-width: 480px) {
+    #div_pedi1 {
+        width: 100%;
+        /* Ocupa todo el ancho en pantallas muy pequeñas */
+        padding: 10px;
+        /* Reduce el padding para maximizar el espacio disponible */
+    }
+}

@@ -1,0 +1,40 @@
+/* Estilo personalizado para el tooltip */
+
+.custom-tooltip {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+    width: 500px;
+    display: none;
+    /* Oculto inicialmente */
+    z-index: 9999;
+    text-align: left;
+}
+.custom-tooltip h4 {
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+.help-icon {
+    cursor: pointer;
+    color: #1E90FF;
+}
+
+.estado-aprobado {
+    /*background-color: green;*/
+    color: green;  /* Para mejorar el contraste */
+}
+
+.estado-pendiente {
+    /**background-color: yellow;*/
+    color: brown;
+}
+
+.estado-noaprobado {
+    /**background-color: yellow;*/
+    color: red;
+}
