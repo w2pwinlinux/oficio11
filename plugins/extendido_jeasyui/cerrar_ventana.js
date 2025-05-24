@@ -1,2 +1,0 @@
-// JavaScript Documen
-window.close();
